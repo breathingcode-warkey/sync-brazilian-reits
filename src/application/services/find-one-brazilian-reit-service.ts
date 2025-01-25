@@ -13,7 +13,7 @@ export class FindOneBrazilianReitService implements FindOneBrazilianReitUsecase 
 
   async perform(): Promise<FindOneBrazilianReitUsecase.Result> {
 
-    const isStock = await this.findReitsRepository.find({ticker: 'PETR4'})
+    const isStock = await this.findReitsRepository.find({ticker: 'RZAK11'})
     if (isStock instanceof Error) {
       return this.treatment.launchError({
         errorDescription: ApplicationErrors.Enumerable.MISSING_PARAM_ERROR,
