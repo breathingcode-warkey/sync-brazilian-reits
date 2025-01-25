@@ -1,4 +1,4 @@
-# boilerplate-v4
+# sync-brazilian-reits
 
 
 
@@ -15,7 +15,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://new.gitlab.brandlovrs.com/brandlovrs/platform/boilerplates/boilerplate-v4.git
+git remote add origin https://github.com/iamelisandromello/sync-brazilian-reits
 git branch -M main
 git push -uf origin main
 ```
