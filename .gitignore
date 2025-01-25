@@ -7,4 +7,3 @@ yarn.lock
 .vscode/launch.json
 **/*.DS_Store
 global-bundle_prod.pem
-pipeline.yml
